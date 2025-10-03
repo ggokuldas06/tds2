@@ -27,4 +27,5 @@ jobs:
           key: cache-deb8aaf
 
       - name: prime-cache-deb8aaf
-        run: echo "Cache result: ${{ steps.cache.outputs.cache-hit }}"
+        run: 'echo "Cache result: ${{ steps.cache.outputs.cache-hit }}"'
+
